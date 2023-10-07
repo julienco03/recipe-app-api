@@ -10,4 +10,4 @@ This project is an advanced REST API with Python, Django REST Framework and Dock
 - Swagger
 - GitHub Actions
     
-[Here](https://www.udemy.com/course/django-python-advanced/) do you find the corresponding course on Udemy.
+You can find the corresponding course on Udemy [here](https://www.udemy.com/course/django-python-advanced/).
