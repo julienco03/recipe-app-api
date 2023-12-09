@@ -30,6 +30,8 @@ class RecipeViewSet(viewsets.ModelViewSet):
         """Return the serializer class for request."""
         if self.action == "list":
             return serializers.RecipeSerializer
+        # elif self.action == 'retrieve' or self.action == 'update':
+        #     return serializers.RecipeDetailSerializer
 
         return self.serializer_class
 
