@@ -391,7 +391,7 @@ class ImageUploadTests(TestCase):
             "user@example.com",
             "password123"
         )
-        self.client.force_authenticate()
+        self.client.force_authenticate(self.user)
         self.recipe = create_recipe(user=self.user)
 
     def tearDown(self):
